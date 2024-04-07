@@ -291,16 +291,16 @@ const Facebook = () => {
             {/* Footer */}
             <div className={styles.post__footer}>
               <span>
-                <strong>Likes:</strong> 8276
+                <strong>Likes:</strong> {dummyPost?.likesCount}
               </span>
               <span>
-                <strong>Shares:</strong> 8276
+                <strong>Shares:</strong> {dummyPost?.sharesCount}
               </span>
               <span>
-                <strong>Views:</strong> 8276
+                <strong>Views:</strong> {dummyPost?.viewsCount}
               </span>
               <span>
-                <strong>Comments:</strong> 8276
+                <strong>Comments:</strong> {dummyPost?.commentsCount}
               </span>
             </div>
           </div>
